@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Debjyoti Shit - Full Stack & DevOps Engineer</title>
+    <style>
+        :root {
+            --primary: #0d6efd; 
+            --primary-hover: #0b5ed7;
+            --primary-focus: rgba(13, 110, 253, 0.25);
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .hero {
+            text-align: center;
+            padding: 6rem 1rem;
+        }
+        section {
+            padding: 3rem 1rem;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(29, 39, 53, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--card-border-color);
+            padding: 0 1rem;
+            border-radius: var(--border-radius);
+        }
+        nav a {
+            transition: all 0.2s ease-in-out;
+            border-radius: var(--border-radius);
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background-color: var(--primary-focus);
+            color: var(--primary);
+        }
+
+        .skill-category {
+            margin-bottom: 2.5rem;
+        }
+        .skill-category h4 {
+            border-bottom: 2px solid var(--primary);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+        .skill-grid span {
+            background-color: rgba(45, 59, 77, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            text-align: center;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .skill-grid span:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+
+        <nav>
+            <ul>
+                <li><strong>Debjyoti Shit</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="https://github.com/Debjyoti2004" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/debjyotishit/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero" id="home">
+            <hgroup>
+                <h1>Debjyoti Shit</h1>
+                <h2>Full Stack, DevOps, Cloud & DevSecOps Developer</h2>
+            </hgroup>
+            <p>Architecting and securing the full lifecycle of modern applications.</p>
+            <a href="mailto:debjyotishit27@gmail.com" role="button" class="contrast">Contact Me</a>
+        </section>
+
+        <section id="about">
+            <h2>👨‍💻 About Me</h2>
+            <article>
+                I am a versatile engineer with comprehensive expertise across the software development lifecycle. As a **Full Stack Developer**, I build seamless user experiences and robust backend services. As a **DevOps and Cloud Engineer**, I design and automate scalable infrastructure. My passion for **DevSecOps** ensures that security is integrated into every stage of the development process, delivering resilient and secure applications.
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>🛠️ Technical Skills</h2>
+
+            <div class="skill-category">
+                <h4>Frontend Development</h4>
+                <div class="skill-grid">
+                    <span>HTML5 & CSS3</span>
+                    <span>JavaScript (ES6+)</span>
+                    <span>TypeScript</span>
+                    <span>React</span>
+                    <span>Vue.js</span>
+                    <span>Angular</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Backend Development</h4>
+                <div class="skill-grid">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>Node.js</span>
+                    <span>Python</span>
+                    <span>REST APIs</span>
+                    <span>Databases (SQL/NoSQL)</span>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h4>DevOps & Cloud</h4>
+                <div class="skill-grid">
+                    <span>AWS</span>
+                    <span>Azure</span>
+                    <span>GCP</span>
+                    <span>Docker</span>
+                    <span>Kubernetes</span>
+                    <span>Jenkins</span>
+                    <span>Terraform</span>
+                    <span>Ansible</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>DevSecOps</h4>
+                <div class="skill-grid">
+                    <span>SonarQube</span>
+                    <span>OWASP ZAP</span>
+                    <span>Trivy</span>
+                    <span>CI/CD Security</span>
+                    <span>SAST & DAST</span>
+                    <span>IAM</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="container">
+        <hr>
+        <p>
+            <small>Contact: <a href="mailto:debjyotishit27@gmail.com">debjyotishit27@gmail.com</a></small><br>
+            <small>&copy; 2025 Debjyoti Shit. All rights reserved.</small>
+        </p>
+    </footer>
+
+</body>
+</html>
